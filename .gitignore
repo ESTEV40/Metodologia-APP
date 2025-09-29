@@ -1,0 +1,89 @@
+# frontend gitignore
+# Logs
+./front-metodologiaApp/logs
+./front-metodologiaApp/*.log
+./front-metodologiaApp/npm-debug.log*
+./front-metodologiaApp/yarn-debug.log*
+./front-metodologiaApp/yarn-error.log*
+./front-metodologiaApp/pnpm-debug.log*
+./front-metodologiaApp/lerna-debug.log*
+
+./front-metodologiaApp/node_modules
+./front-metodologiaApp/.DS_Store
+./front-metodologiaApp/dist
+./front-metodologiaApp/dist-ssr
+./front-metodologiaApp/coverage
+./front-metodologiaApp/*.local
+
+./front-metodologiaApp//cypress/videos/
+./front-metodologiaApp//cypress/screenshots/
+
+# Editor directories and files
+./front-metodologiaApp/.vscode/*
+./front-metodologiaApp/!.vscode/extensions.json
+./front-metodologiaApp/.idea
+./front-metodologiaApp/*.suo
+./front-metodologiaApp/*.ntvs*
+./front-metodologiaApp/*.njsproj
+./front-metodologiaApp/*.sln
+./front-metodologiaApp/*.sw?
+
+./front-metodologiaApp/*.tsbuildinfo
+
+# backend gitignore
+# compiled output
+./metodologia-app//dist
+./metodologia-app//node_modules
+./metodologia-app//build
+
+# Logs
+./back-metodologia-app/logs
+./back-metodologia-app/*.log
+./back-metodologia-app/npm-debug.log*
+./back-metodologia-app/pnpm-debug.log*
+./back-metodologia-app/yarn-debug.log*
+./back-metodologia-app/yarn-error.log*
+./back-metodologia-app/lerna-debug.log*
+
+# OS
+./back-metodologia-app/.DS_Store
+
+# Tests
+./back-metodologia-app/coverage
+./back-metodologia-app/.nyc_output
+
+# IDEs and editors
+./back-metodologia-app/.idea
+./back-metodologia-app/.project
+./back-metodologia-app/.classpath
+./back-metodologia-app/.c9/
+./back-metodologia-app/*.launch
+./back-metodologia-app/.settings/
+./back-metodologia-app/*.sublime-workspace
+
+# IDE - VSCode
+./back-metodologia-app/.vscode/*
+./back-metodologia-app/!.vscode/settings.json
+./back-metodologia-app/!.vscode/tasks.json
+./back-metodologia-app/!.vscode/launch.json
+./back-metodologia-app/!.vscode/extensions.json
+
+# dotenv environment variable files
+./back-metodologia-app/.env
+./back-metodologia-app/.env.development.local
+./back-metodologia-app/.env.test.local
+./back-metodologia-app/.env.production.local
+./back-metodologia-app/.env.local
+
+# temp directory
+./back-metodologia-app/.temp
+./back-metodologia-app/.tmp
+
+# Runtime data
+./back-metodologia-app/pids
+./back-metodologia-app/*.pid
+./back-metodologia-app/*.seed
+./back-metodologia-app/*.pid.lock
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+./back-metodologia-app/report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
